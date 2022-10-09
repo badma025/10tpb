@@ -8,7 +8,7 @@ import Login from "../components/Login";
 const Home = () => {
   const router = useRouter()
   useEffect(() => {
-    router.push("http://localhost:3000/portal")
+    router.push("https://10tpb.vercel.app/portal");
   }, []);
 
   return (

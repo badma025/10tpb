@@ -42,7 +42,7 @@ const Home: NextPage = () => {
 
   useEffect(() => {
     if (!isLoggedIn) {
-      router.push("http://localhost:3000/portal");
+      router.push("https://10tpb.vercel.app/portal");
     }
   }, []);
 
