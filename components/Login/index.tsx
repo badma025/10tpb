@@ -32,7 +32,7 @@ const Login = () => {
     if (passwordData.passwordField == passwordInput) {
       setEnteredCorrectPassword(true);
       setIsLoggedIn(true);
-      router.push("http://localhost:3000/home");
+      router.push("https://10tpb.vercel.app/home");
     } else {
       setPasswordError(true);
     }
