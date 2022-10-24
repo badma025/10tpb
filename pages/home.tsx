@@ -6,7 +6,7 @@ import { isLoggedInState } from "../atoms/atoms";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
-const Home: NextPage = () => {
+const HomePage: NextPage = () => {
   const [isLoggedIn, setIsLoggedIn] = useRecoilState(isLoggedInState);
   const router = useRouter()
  
@@ -29,8 +29,8 @@ bg-[#282828] text-[#fa7a00]">
 
       <main className="font-Poppins  mx-auto  max-w-[1500px]  ">
         <Header />
-        <div>
-          
+        <div className="flex justify-center mt-10 text-lg">
+          The Latest From 10 Throwley
         </div>
 
       </main>
@@ -38,4 +38,4 @@ bg-[#282828] text-[#fa7a00]">
   );
 };
 
-export default Home;
+export default HomePage;
